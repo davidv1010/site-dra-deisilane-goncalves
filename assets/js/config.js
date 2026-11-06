@@ -79,7 +79,9 @@ window.SITE = {
     { antes: "assets/img/ad-abdomen-antes.webp",   depois: "assets/img/ad-abdomen-depois.webp",
       legenda: "Abdômen • antes e depois imediato", proporcao: "5/3" },
     { antes: "assets/img/ad-drenagem-antes.webp",  depois: "assets/img/ad-drenagem-depois.webp",
-      legenda: "Drenagem • resultado após 1 sessão", proporcao: "15/8" }
+      legenda: "Drenagem • resultado após 1 sessão", proporcao: "15/8" },
+    { antes: "assets/img/ad-limpeza-antes.webp",   depois: "assets/img/ad-limpeza-depois.webp",
+      legenda: "Limpeza de pele • região dos olhos", proporcao: "3/2" }
   ],
 
   /* ---------- DEPOIMENTOS ----------
