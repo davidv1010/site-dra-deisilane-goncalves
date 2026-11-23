@@ -21,17 +21,17 @@ window.SITE = {
   /* ---------- MENSAGENS DO WHATSAPP POR BOTÃO ----------
      Cada botão do site tem data-wa="chave". A mensagem identifica a origem. */
   mensagens: {
-    hero:        "Olá, Dra. Deisilane! Vim pelo site e quero agendar uma avaliação do CrioDetox Sculpt.",
-    premios:     "Olá, Dra. Deisilane! Vi seus prêmios no site e quero agendar minha avaliação.",
-    crio:        "Olá, Dra. Deisilane! Vim pelo site e quero saber se o CrioDetox Sculpt é para mim.",
-    antesdepois: "Olá, Dra. Deisilane! Vi os resultados de antes e depois no site e quero agendar uma avaliação.",
-    sobre:       "Olá, Dra. Deisilane! Conheci sua história pelo site e quero agendar minha avaliação.",
-    depoimentos: "Olá, Dra. Deisilane! Li os depoimentos no site e quero agendar minha avaliação.",
-    passos:      "Olá, Dra. Deisilane! Quero agendar minha avaliação personalizada (vim pelo site).",
-    faq:         "Olá, Dra. Deisilane! Vim pelo site e tenho uma dúvida antes de agendar minha avaliação.",
-    preco:       "Olá, Dra. Deisilane! Vim pelo site e gostaria de saber valores do CrioDetox Sculpt após a avaliação.",
-    final:       "Olá, Dra. Deisilane! Vim pelo site e quero agendar minha avaliação.",
-    flutuante:   "Olá, Dra. Deisilane! Vim pelo site e quero agendar uma avaliação."
+    hero:        "Olá, Deisilane! Vim pelo site e quero agendar uma avaliação do CrioDetox Sculpt.",
+    premios:     "Olá, Deisilane! Vi seus prêmios no site e quero agendar minha avaliação.",
+    crio:        "Olá, Deisilane! Vim pelo site e quero saber se o CrioDetox Sculpt é para mim.",
+    antesdepois: "Olá, Deisilane! Vi os resultados de antes e depois no site e quero agendar uma avaliação.",
+    sobre:       "Olá, Deisilane! Conheci sua história pelo site e quero agendar minha avaliação.",
+    depoimentos: "Olá, Deisilane! Li os depoimentos no site e quero agendar minha avaliação.",
+    passos:      "Olá, Deisilane! Quero agendar minha avaliação personalizada (vim pelo site).",
+    faq:         "Olá, Deisilane! Vim pelo site e tenho uma dúvida antes de agendar minha avaliação.",
+    preco:       "Olá, Deisilane! Vim pelo site e gostaria de saber valores do CrioDetox Sculpt após a avaliação.",
+    final:       "Olá, Deisilane! Vim pelo site e quero agendar minha avaliação.",
+    flutuante:   "Olá, Deisilane! Vim pelo site e quero agendar uma avaliação."
   },
 
   /* ---------- PRÊMIOS ---------- */
@@ -54,15 +54,15 @@ window.SITE = {
   /* ---------- OUTROS TRATAMENTOS (destaques do Instagram) ---------- */
   tratamentos: [
     { nome: "Lipedema", frase: "Alívio e menos inflamação.",
-      msg: "Olá, Dra. Deisilane! Vim pelo site e quero saber mais sobre o tratamento para lipedema." },
+      msg: "Olá, Deisilane! Vim pelo site e quero saber mais sobre o tratamento para lipedema." },
     { nome: "Drenagem e pós-operatório", frase: "Menos inchaço, recuperação mais leve.",
-      msg: "Olá, Dra. Deisilane! Vim pelo site e quero saber mais sobre drenagem e pós-operatório." },
+      msg: "Olá, Deisilane! Vim pelo site e quero saber mais sobre drenagem e pós-operatório." },
     { nome: "Depilação a laser", frase: "Adeus à lâmina e aos pelos encravados.",
-      msg: "Olá, Dra. Deisilane! Vim pelo site e quero saber mais sobre a depilação a laser." },
+      msg: "Olá, Deisilane! Vim pelo site e quero saber mais sobre a depilação a laser." },
     { nome: "Limpeza de pele", frase: "Pele limpa, renovada e com viço.",
-      msg: "Olá, Dra. Deisilane! Vim pelo site e quero agendar uma limpeza de pele." },
+      msg: "Olá, Deisilane! Vim pelo site e quero agendar uma limpeza de pele." },
     { nome: "Dermaplaning", frase: "Pele macia e iluminada na hora.",
-      msg: "Olá, Dra. Deisilane! Vim pelo site e quero saber mais sobre o dermaplaning." }
+      msg: "Olá, Deisilane! Vim pelo site e quero saber mais sobre o dermaplaning." }
   ],
 
   /* ---------- ANTES E DEPOIS ----------

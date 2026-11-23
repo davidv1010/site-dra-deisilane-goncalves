@@ -1,4 +1,4 @@
-# Site Dra. Deisilane Gonçalves | Estética de Resultados
+# Site Deisilane Gonçalves | Estética de Resultados
 
 ## Onde editar
 - **assets/js/config.js**: WhatsApp, mensagens de cada botão, endereço, horário, prêmios, números, tratamentos, antes/depois, depoimentos, FAQ, CNPJ, IDs do Meta Pixel e do Google Analytics.
