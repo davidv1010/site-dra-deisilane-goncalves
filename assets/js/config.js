@@ -59,12 +59,10 @@ window.SITE = {
       msg: "Olá, Dra. Deisilane! Vim pelo site e quero saber mais sobre drenagem e pós-operatório." },
     { nome: "Depilação a laser", frase: "Adeus à lâmina e aos pelos encravados.",
       msg: "Olá, Dra. Deisilane! Vim pelo site e quero saber mais sobre a depilação a laser." },
-    { nome: "Limpeza de pele e Hidra Gloss", frase: "Pele limpa, hidratada e com brilho.",
-      msg: "Olá, Dra. Deisilane! Vim pelo site e quero agendar uma limpeza de pele ou Hidra Gloss." },
+    { nome: "Limpeza de pele", frase: "Pele limpa, renovada e com viço.",
+      msg: "Olá, Dra. Deisilane! Vim pelo site e quero agendar uma limpeza de pele." },
     { nome: "Dermaplaning", frase: "Pele macia e iluminada na hora.",
-      msg: "Olá, Dra. Deisilane! Vim pelo site e quero saber mais sobre o dermaplaning." },
-    { nome: "Taping", frase: "Menos inchaço e mais suporte.",
-      msg: "Olá, Dra. Deisilane! Vim pelo site e quero saber mais sobre o taping." }
+      msg: "Olá, Dra. Deisilane! Vim pelo site e quero saber mais sobre o dermaplaning." }
   ],
 
   /* ---------- ANTES E DEPOIS ----------
