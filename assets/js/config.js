@@ -24,6 +24,7 @@ window.SITE = {
     hero:        "Olá, Deisilane! Vim pelo site e quero agendar uma avaliação do CrioDetox Sculpt.",
     premios:     "Olá, Deisilane! Vi seus prêmios no site e quero agendar minha avaliação.",
     crio:        "Olá, Deisilane! Vim pelo site e quero saber se o CrioDetox Sculpt é para mim.",
+    summer:      "Olá, Deisilane! Vim pelo site e quero saber mais sobre o Sculpt Summer.",
     antesdepois: "Olá, Deisilane! Vi os resultados de antes e depois no site e quero agendar uma avaliação.",
     sobre:       "Olá, Deisilane! Conheci sua história pelo site e quero agendar minha avaliação.",
     depoimentos: "Olá, Deisilane! Li os depoimentos no site e quero agendar minha avaliação.",
@@ -92,6 +93,9 @@ window.SITE = {
 
   /* ---------- PERGUNTAS FREQUENTES ---------- */
   faq: [
+    { p: "O que é o Sculpt Summer?",
+      r: "Um protocolo de 8 semanas, montado para você, que trabalha gordura localizada, flacidez, celulite e retenção.",
+      cta: "summer" },
     { p: "O CrioDetox Sculpt dói?",
       r: "É um dos procedimentos menos dolorosos. Você sente frio nos primeiros minutos e logo fica confortável." },
     { p: "O CrioDetox Sculpt faz emagrecer?",

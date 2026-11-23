@@ -605,3 +605,52 @@ strong { font-weight: 700; }
   .hero__media .badge, .js .photo.reveal img, .js .reveal .eyebrow__line, .hero .eyebrow__line,
   .js .timeline::before, .js .reveal .checks li::before, .js .award.reveal .seal { opacity: 1; transform: none !important; }
 }
+
+/* =========================================================
+   SCULPT SUMMER (protocolo de verão)
+   ========================================================= */
+.news {
+  display: inline-flex; align-items: center; gap: .55rem; margin-bottom: 1.1rem;
+  padding: .32rem .8rem .32rem .35rem; border-radius: 999px; text-decoration: none;
+  font-size: .78rem; font-weight: 600; color: var(--texto);
+  background: linear-gradient(90deg, #FFF3DC, #FBE9DF); border: 1px solid rgba(194,160,97,.45);
+  box-shadow: 0 6px 16px -10px rgba(194,140,60,.6); transition: transform .3s var(--ease);
+}
+.news:hover { transform: translateY(-2px); }
+.news__tag { padding: .16rem .55rem; border-radius: 999px; background: var(--texto); color: #FFE7B3; font-size: .66rem; letter-spacing: .12em; text-transform: uppercase; font-weight: 700; }
+.news .ico { width: 1em; height: 1em; color: var(--ouro-texto); }
+
+.summer { background: linear-gradient(180deg, #FFF6E6 0%, #FBEADF 55%, var(--perola) 100%); }
+.summer__sun {
+  position: absolute; top: -140px; right: -120px; width: 380px; height: 380px; border-radius: 50%; pointer-events: none;
+  background: radial-gradient(closest-side, rgba(255, 214, 140, .75), rgba(255, 214, 140, 0));
+  animation: sunpulse 7s ease-in-out infinite alternate;
+}
+@keyframes sunpulse { from { transform: scale(1); opacity: .85; } to { transform: scale(1.08); opacity: 1; } }
+.summer .eyebrow { color: #8A5A1E; }
+.summer h2 em { color: #B07A2E; }
+.summer__quote { color: #8A5A1E !important; }
+.summer__grid { display: grid; gap: 1.5rem; position: relative; z-index: 1; }
+.summer__card {
+  padding: 1.6rem; border-radius: var(--r);
+  background: rgba(255,255,255,.72); border: 1px solid rgba(194,160,97,.35);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 24px 50px -28px rgba(176, 122, 46, .55);
+}
+.summer__weeks { display: flex; align-items: center; gap: .9rem; margin-bottom: 1.3rem; padding-bottom: 1.2rem; border-bottom: 1px solid rgba(194,160,97,.3); }
+.summer__num { font-family: var(--serif); font-size: 4.2rem; line-height: .9; background: linear-gradient(135deg, #E7B35A, #B07A2E); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.summer__lbl { font-size: .8rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #8A5A1E; line-height: 1.4; }
+.summer__for { font-size: .78rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--texto-suave); margin-bottom: .6rem; }
+.summer__chips { list-style: none; padding: 0; margin: 0 0 1.3rem; display: flex; flex-wrap: wrap; gap: .5rem; }
+.summer__chips li { padding: .42rem .85rem; border-radius: 999px; font-size: .85rem; font-weight: 600; background: #FFF1D6; color: #6E4716; border: 1px solid rgba(176,122,46,.25); }
+.summer__checks li::before { background-color: #FFE7B3; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238A5A1E' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 12 4 4 8-8'/%3E%3C/svg%3E"); }
+.summer__card .btn--lg { width: 100%; max-width: none; }
+.js .reveal.is-in .summer__chips li { animation: chipin .5s var(--ease) both; }
+.js .reveal.is-in .summer__chips li:nth-child(2) { animation-delay: .1s; }
+.js .reveal.is-in .summer__chips li:nth-child(3) { animation-delay: .2s; }
+.js .reveal.is-in .summer__chips li:nth-child(4) { animation-delay: .3s; }
+@keyframes chipin { from { opacity: 0; transform: translateY(8px) scale(.95); } to { opacity: 1; transform: none; } }
+@media (min-width: 960px) {
+  .summer__grid { grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+}
+@media (prefers-reduced-motion: reduce) { .summer__sun { animation: none; } }
