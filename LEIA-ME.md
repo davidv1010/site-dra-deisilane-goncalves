@@ -31,4 +31,4 @@ Eventos de clique no WhatsApp:
 Ao mudar CSS ou JS, aumente o número `?v=3` nos links do `index.html` (ex.: `?v=4`) para os celulares baixarem a versão nova.
 
 ## Publicar
-São arquivos estáticos: envie a pasta inteira para Netlify, Vercel, Hostinger etc. O site está no GitHub Pages: https://davidv1010.github.io/site-dra-deisilane-goncalves/ — se usar um domínio próprio, troque esse endereço no `index.html`.
+São arquivos estáticos: envie a pasta inteira para Netlify, Vercel, Hostinger etc. O site está no GitHub Pages com o domínio deisilanegonçales.com.br (xn--deisilanegonales-npb.com.br). O DNS fica no Registro.br: 4 registros A para 185.199.108.153, .109.153, .110.153, .111.153 e CNAME www para davidv1010.github.io.
